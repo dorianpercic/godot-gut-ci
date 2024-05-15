@@ -35,7 +35,7 @@ if [[ -n $PROJECT_PATH ]]; then
   cd $PROJECT_PATH
 fi
 
-godot --headless --import
+godot --headless --import -q
 
 echo Running GUT tests using params:
 echo "  -> $GUT_PARAMS"
